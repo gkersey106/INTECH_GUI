@@ -1,0 +1,40 @@
+/* Dropdown Styles */
+.Select-control {
+    background-color: #333 !important;
+    color: #FFF !important;
+    font-size: 20px !important;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 15px; /* Adds space below the dropdown */
+}
+
+.Select-value-label, 
+.Select-placeholder, 
+.Select-option, 
+.Select-clear, 
+.Select-clear-zone, 
+.Select-clear-zone:hover, 
+.Select-arrow {
+    color: #FFF !important;
+}
+
+.Select-menu-outer {
+    background-color: #333 !important;
+}
+
+.Select-option.is-focused {
+    background-color: #555 !important;
+}
+
+.Select-option.is-selected {
+    background-color: #444 !important;
+}
+
+/* Slider Styles */
+.slider-style .rc-slider-track {
+    background-color: #FFD700; /* Adjust to the color of your graph lines */
+}
+
+.slider-style .rc-slider-handle {
+    border: 2px solid #FFD700;
+}
